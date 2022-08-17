@@ -8,3 +8,11 @@ git pull origin main --> descarga los cambios que se han hehco en el repositorio
 git add . --> capture todos los cambios que yo le he echo al proyecto
 git commit -m "Commit del estudiante X" --> preparar los cambios y le adiciona un mensaje
 git push -u origin main --> sube los cambios al repositorio de gitHub
+
+
+Crear ramas --->
+	git checkout -b prueba --> crea y nos ubica en la rama
+	git branch ejemplo --> crea pero no nos ubica en la rama
+para ubircarse en la rama-->
+git checkout nombreRama
+	
