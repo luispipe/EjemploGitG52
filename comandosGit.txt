@@ -1,0 +1,10 @@
+Configuración inicial, indicar su email y su username -->
+	git config --global user.name "username"--> el username de gitHub
+	git config --global user.email "email" --> email de registro de gitHub
+Clonar(copia del repositorio de gitHub)--> git clone urlRepositorio
+Los siguientes pasos siempre se repiten 
+git init --> inicializa el repositorio
+git pull origin main --> descarga los cambios que se han hehco en el repositorio
+git add . --> capture todos los cambios que yo le he echo al proyecto
+git commit -m "Commit del estudiante X" --> preparar los cambios y le adiciona un mensaje
+git push -u origin main --> sube los cambios al repositorio de gitHub
