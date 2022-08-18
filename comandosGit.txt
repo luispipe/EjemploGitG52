@@ -1,4 +1,4 @@
-Configuración inicial, indicar su email y su username -->
+Configuraciï¿½n inicial, indicar su email y su username -->
 	git config --global user.name "username"--> el username de gitHub
 	git config --global user.email "email" --> email de registro de gitHub
 Clonar(copia del repositorio de gitHub)--> git clone urlRepositorio
@@ -15,4 +15,7 @@ Crear ramas --->
 	git branch ejemplo --> crea pero no nos ubica en la rama
 para ubircarse en la rama-->
 git checkout nombreRama
-	
+
+pull y push de una rama de trabajo:
+	git pull nombreRama
+ 	git push --set-upstream origin nombreRama
